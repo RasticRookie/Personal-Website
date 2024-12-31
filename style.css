@@ -1,0 +1,410 @@
+/* STYLE SECTIONING TAGS */
+*{
+  margin-right: 1mm;
+  margin-left: 1mm;
+}
+
+.Portfolio-background {
+  background-color: #b66bd1; 
+}
+.index-background {
+  background-color: #f55b9e;
+}
+.Hobbies-background {
+  background-color: #4cb859; 
+}
+
+.Portfolio-button:hover {
+  color: #21023b;            
+}
+.Hobbies-button:hover {
+  color: #021301;            
+}
+.index-button:hover {
+  color: #450303;            
+}
+
+.Portfolio-button {
+  background-color:#8d0797;
+  border-width: 16px;
+  border-radius: 16px;
+  border-color: #4e0b5b;
+  padding: 5px;
+  font-size: 16px;
+  font-family: "Fredoka One", fantasy;
+  font-weight: 900;
+  color: #d592e8;
+  text-decoration: none;
+
+}
+
+.index-button {
+  background-color:#d1005b;
+  border-width: 16px;
+  border-radius: 16px;;
+  border-color: #940040;
+  padding: 5px;
+  font-size: 16px;
+  font-family: "Fredoka One", fantasy;
+  font-weight: 900;
+  color: #f4b3cf;
+  text-decoration: none
+  
+}
+
+.Hobbies-button {
+  background-color:#17610f;
+  border-width: 16px;
+  border-radius: 16px;;
+  border-color: #1f471a;
+  padding: 5px;
+  font-size: 16px;
+  font-family: "Fredoka One", fantasy;
+  font-weight: 900;
+  color: #b1dd8b;
+  text-decoration: none
+  
+}
+
+.horizontal-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+.floating-image {
+  position: absolute;
+  top: 5px; /* or some other value like '10px' to add some padding */
+  left: 4px; /* or use 'right: 0;' if you want it in the top right corner */
+  width: 140px; 
+  height: 100px; 
+}
+
+.coon-image {
+  position: absolute;
+  width: 230px; 
+  height: 155px;
+  top: 114px; 
+  left: 120px;
+}
+.rcoon-image {
+  position: absolute;
+  width: 230px; 
+  height: 155px;
+  top: 114px; 
+  left: 993px;
+}
+.TV-image {
+height: 400px;
+width: 400px;
+position: relative;
+top: 480px;
+left: 1px;
+}
+.BOOK-image {
+height: 350px;
+width: 290px;
+position: relative;
+  top: 840px;
+  left: 600px;
+}
+.PAINT-image {
+height: 300px;
+float: right;
+padding-right: 50px;
+padding-top: 100px;
+}
+
+
+
+  .purple-image {
+    position: relative;
+  border-radius: 8800px;
+  border: 10px solid;
+    top: -40px;
+    left: px;
+  border-color: #cc003d;
+    height: 290px;
+    width: 295px;
+} 
+.image-container1 {
+ position: relative;
+  width: 250px;
+  height: 200px;
+  left: 10px;
+  top: 70px;
+  margin-bottom: 100px;
+} 
+.image-container1:hover .purp {
+  opacity: 1;
+}
+.purp {
+  position: absolute;
+  top: 40px;
+  left: 580px; 
+  width: 200%;
+  color: #d27bea;              
+  font-family: cursive;
+  font-size: 20px;
+  background-color: rgb(62, 13, 89, 0.8); 
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0; 
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5s; 
+}  
+
+
+.pasta-image { 
+  position: relative;
+  border-radius: 1000px;  
+  border: 10px solid;   
+  border-color: #cc003d; 
+  top: -40px;
+  left: -10px;
+  height: 300px;
+}
+.pasta {
+   position: absolute;
+  top: 50px;
+  left: 600px;
+  width: 220%;
+  color: #eae77b;              
+  font-family: cursive;
+  font-size: 20px;
+  background-color: rgb(195, 169, 4, 0.8); 
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0; 
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5s; 
+}
+.image-container2 {
+  position: relative;
+  left: 20px;
+  height: 200px;
+   width: 240px;
+  margin-top: 100px;
+  margin-bottom: 90px;
+} 
+.image-container2:hover .pasta {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.Jax-image {
+  height: 350px;
+  width: 290px;
+  position: relative;
+  left: -20px;
+} 
+.Jax {
+  position: absolute;
+  left: -300px;
+  top: 100px;
+  width: 5000%;
+  color: #e8daa6;              
+  font-family: cursive;
+  font-size: 20px;
+  background-color: rgb(22, 22, 19, 0.8); 
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0;  
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5s;
+}
+.image-container3 {
+  position: relative;
+  left: 1040px;
+  top: 20px;
+  width: 10px;  
+  height: 30px; 
+  margin-bottom: 270px;
+} 
+.image-container3:hover .Jax {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.ST-image {
+  height: 360px;
+  width: 280px;
+  top: ; 
+} 
+.ST {
+   position: absolute; 
+  top: 130px;
+  left: -300px; 
+  width: 190%;
+  color: #fdaad6;              
+  font-family: cursive;
+  font-size: 20px;
+  background-color: rgb(154, 60, 120, 0.8); 
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0;  
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5s; 
+} 
+.image-container4 {
+  position: relative;
+  left: 1045px;
+   width: 290px;  
+}
+.image-container4:hover .ST {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.TX-image {
+ border-radius: 10px;  
+  border: 10px solid;   
+  border-color: #cc003d; 
+   margin: px;
+  left: px; 
+  height: 230px;
+  width: 350px;
+} 
+.TX {
+  position: absolute;
+  left: 620px;
+  top: 40px;
+   width: 150%;
+  color: #e6e6e6;              
+  font-family: cursive;
+  font-size: 20px;
+  background-image: radial-gradient(ellipse, #bd0000, #1a0198);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0;  
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5s; 
+}
+.image-container5 {
+  position: relative;
+  width: 300px; 
+  margin-top: 10px;
+  left: 15px;
+}
+.image-container5:hover .TX {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.Oct-image {
+  height: 250px;
+  right: 20px;
+} 
+.Oct {
+  position: absolute;
+  top: 80px;
+  left: -285px;
+  width: 210%;
+  color: #eeb463;              
+  font-family: cursive;
+  font-size: 20px;
+  background-color: rgb(166, 100, 7, 0.8);  
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center; 
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5s;
+}
+.image-container6 {
+  position: relative;
+  left: 1045px; 
+  width: 250px;  
+  margin-bottom: 150px;
+} 
+.image-container6:hover .Oct {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+.Skibidi-h2 {
+  font-variant: small-caps;
+  background: linear-gradient(90deg, red, #fff700, #00ff04, #008055, #00e1ff, #1e00ff, #7d0080, #ff007b);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 10px transparent;
+  font-family: "Tourney", sans-serif;
+ font-size: 1.6cm;
+  margin-bottom: 2.6em;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  margin-top: 5.3em;
+}
+
+.Rizzler-h1{
+  font-family: "Oswald", sans-serif;
+  color:#7a00cc;
+   -webkit-text-stroke: 2px #000000;
+  font-size: .48cm;
+  margin: 0 auto;
+  margin-bottom: 300px;
+  width: 80%;
+  text-align: center;
+}
+
+.Skibidi-h1 {
+  font-family: "Oswald", sans-serif;
+  color:#cc003d;
+   -webkit-text-stroke: 2px #000000;
+  font-size: 1.0cm;
+}
+
+.special-letters { 
+  color: #230632;
+  margin-bottom: -.2em;
+  font-size: 4em;
+  font-variant: small-caps;
+
+  text-shadow:
+     6px  5px 0 #9d1b6d;            
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.tourney-<uniquifier> {
+  font-family: "Tourney", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.delius-swash-caps-regular {
+  font-family: "Delius Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
