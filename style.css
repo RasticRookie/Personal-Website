@@ -24,6 +24,7 @@
   color: #450303;            
 }
 
+
 .Portfolio-button {
   background-color:#8d0797;
   border-width: 16px;
@@ -369,6 +370,14 @@ padding-top: 100px;
   color:#cc003d;
    -webkit-text-stroke: 2px #000000;
   font-size: 1.0cm;
+}
+
+.Skibidi-h4 {
+  font-family: "Oswald", sans-serif; 
+  color:#3f8924;
+  -webkit-text-stroke: 2px #000000;
+  font-size: 1.0cm;
+  margin-top: 2.6em
 }
 
 .special-letters { 
