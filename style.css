@@ -31,7 +31,7 @@
 }
 
 .Electronics-button:hover {
-  color: #8d0797;            
+  color: #040345;            
 }
 
 .Portfolio-button {
@@ -75,15 +75,15 @@
 }
 
 .Electronics-button {
-  background-color:#8d0797;
+  background-color:#150f61;
   border-width: 16px;
   border-radius: 16px;
-  border-color: #0b1b5b;
+  border-color: #1d1a47;
   padding: 5px;
   font-size: 16px;
   font-family: "Fredoka One", fantasy;
   font-weight: 900;
-  color: ##180797;
+  color: #90a0df;
   text-decoration: none;
 }
 
