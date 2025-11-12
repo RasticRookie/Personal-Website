@@ -16,6 +16,10 @@
   background-color: #4cb859; 
 }
 
+.Electronics-background {
+ background-color: #5b7af5;
+}
+
 .Portfolio-button:hover {
   color: #21023b;            
 }
@@ -26,6 +30,9 @@
   color: #450303;            
 }
 
+.Electronics-button:hover {
+  color: #021b3b;            
+}
 
 .Portfolio-button {
   background-color:#8d0797;
@@ -38,7 +45,6 @@
   font-weight: 900;
   color: #d592e8;
   text-decoration: none;
-
 }
 
 .index-button {
@@ -66,7 +72,19 @@
   font-weight: 900;
   color: #b1dd8b;
   text-decoration: none
-  
+}
+
+.Electronics-button {
+  background-color:#8d0797;
+  border-width: 16px;
+  border-radius: 16px;
+  border-color: #0b1b5b;
+  padding: 5px;
+  font-size: 16px;
+  font-family: "Fredoka One", fantasy;
+  font-weight: 900;
+  color: #021b3b;
+  text-decoration: none;
 }
 
 .horizontal-list {
