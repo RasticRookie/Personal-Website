@@ -153,8 +153,8 @@
 .JJ-image {
   height: 300px;
   position: relative;
-  top: -1060px; /* Adjust to match TV's position */
-  left: 380px; /* Position this image next to TV */
+  top:  1060px; /* Adjust to match TV's position */
+  left: 0px; /* Position this image next to TV */
   padding-right: 20px;
   padding-top: 100px;
 }
@@ -163,25 +163,25 @@
   height: 350px;
   width: 290px;
   position: relative;
-  top: 240px;  /* Position this below the BOOK-image */
-  left: 550px; 
+  top: 840px;  /* Position this below the BOOK-image */
+  left: 450px; 
 }
 
 .Drawing-image {
   height: 300px;
   float: right;
-  top: -300px;
+  top: -600px;
   padding-right: 50px;
   padding-top: 100px;
-  left: 850px;  /* Adjust left to align with BOOK-image */
+  left: 900px;  /* Adjust left to align with BOOK-image */
 }
 
 .bill-image {
   height: 150px;
   width: 290px;
   position: relative;
-  top: -340px;
-  left: 550px;
+  top: 840px;
+  left: 0px;
 }
 
 
