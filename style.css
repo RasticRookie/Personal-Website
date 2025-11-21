@@ -98,8 +98,8 @@
 
 .floating-image {
   position: absolute;
-  top: 5px; /* or some other value like '10px' to add some padding */
-  left: 4px; /* or use 'right: 0;' if you want it in the top right corner */
+  top: 5px; 
+  left: 4px; 
   width: 140px; 
   height: 100px; 
 }
@@ -118,6 +118,13 @@
   top: 114px; 
   left: 993px;
 }
+
+.PAINT-image {
+height: 300px;
+float: right;
+padding-right: 50px;
+padding-top: 100px;
+}
 .TV-image {
 height: 400px;
 width: 400px;
@@ -132,13 +139,41 @@ position: relative;
   top: 840px;
   left: 550px;
 }
-.PAINT-image {
-height: 300px;
+.Crochet-image {
+  height: 350px;
+width: 290px;
+position: relative;
+  top: 440px;
+  left: 550px;
+}
+.JJ-image {
+  height: 300px;
 float: right;
+  top: -300pc;
 padding-right: 50px;
 padding-top: 100px;
 }
-
+.Writing-image {
+  height: 350px;
+width: 290px;
+position: relative;
+  top: 240px;
+  left: 550px;
+}
+.Drawing-image {
+  height: 300px;
+float: right;
+  top: -300pc;
+padding-right: 50px;
+padding-top: 100px;
+} 
+.bill-image {
+  height: 350px;
+width: 290px;
+position: relative;
+  top: -340px;
+  left: 550px;
+}
 
 
   .purple-image {
