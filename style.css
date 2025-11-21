@@ -143,14 +143,14 @@ position: relative;
   height: 350px;
 width: 290px;
 position: relative;
-  top: 440px;
-  left: 550px;
+  top: 1240px;
+  left: 750px;
 }
 .JJ-image {
   height: 300px;
 float: right;
-  top: -300pc;
-padding-right: 50px;
+  top: -500pc;
+padding-right: 20px;
 padding-top: 100px;
 }
 .Writing-image {
