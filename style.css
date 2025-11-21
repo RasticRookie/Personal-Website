@@ -120,60 +120,70 @@
 }
 
 .PAINT-image {
-height: 300px;
-float: right;
-padding-right: 50px;
-padding-top: 100px;
+  height: 300px;
+  float: right;
+  padding-right: 50px;
+  padding-top: 100px;
 }
+
 .TV-image {
-height: 400px;
-width: 400px;
-position: relative;
-top: 480px;
-left: 1px;
+  height: 400px;
+  width: 400px;
+  position: relative;
+  top: 480px;
+  left: 1px;
 }
+
 .BOOK-image {
-height: 350px;
-width: 290px;
-position: relative;
+  height: 350px;
+  width: 290px;
+  position: relative;
   top: 840px;
   left: 550px;
 }
+
 .Crochet-image {
   height: 350px;
-width: 290px;
-position: relative;
-  top: 1240px;
-  left: 750px;
+  width: 290px;
+  position: relative;
+  top: 1240px; /* Adjusted to align with TV */
+  left: 0px;  /* Align it to the left of TV */
 }
+
 .JJ-image {
   height: 300px;
-float: right;
-  top: -500pc;
-padding-right: 20px;
-padding-top: 100px;
+  position: relative;
+  top: -460px; /* Adjust to match TV's position */
+  left: 420px; /* Position this image next to TV */
+  padding-right: 20px;
+  padding-top: 100px;
 }
+
 .Writing-image {
   height: 350px;
-width: 290px;
-position: relative;
-  top: 240px;
-  left: 550px;
+  width: 290px;
+  position: relative;
+  top: 240px;  /* Position this below the BOOK-image */
+  left: 550px; 
 }
+
 .Drawing-image {
   height: 300px;
-float: right;
-  top: -300pc;
-padding-right: 50px;
-padding-top: 100px;
-} 
+  float: right;
+  top: -300px;
+  padding-right: 50px;
+  padding-top: 100px;
+  left: 850px;  /* Adjust left to align with BOOK-image */
+}
+
 .bill-image {
-  height: 350px;
-width: 290px;
-position: relative;
+  height: 150px;
+  width: 290px;
+  position: relative;
   top: -340px;
   left: 550px;
 }
+
 
 
   .purple-image {
