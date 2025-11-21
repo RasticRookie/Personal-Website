@@ -153,8 +153,8 @@
 .JJ-image {
   height: 300px;
   position: relative;
-  top: -460px; /* Adjust to match TV's position */
-  left: 420px; /* Position this image next to TV */
+  top: -1060px; /* Adjust to match TV's position */
+  left: 380px; /* Position this image next to TV */
   padding-right: 20px;
   padding-top: 100px;
 }
