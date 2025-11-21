@@ -155,8 +155,8 @@
   position: relative;
   top:  1060px; /* Adjust to match TV's position */
   left: 0px; /* Position this image next to TV */
-  padding-right: 20px;
-  padding-top: 100px;
+  padding-right: 0px;
+  padding-top: 0px;
 }
 
 .Writing-image {
@@ -180,7 +180,7 @@
   height: 150px;
   width: 290px;
   position: relative;
-  top: 840px;
+  top: 640px;
   left: 0px;
 }
 
