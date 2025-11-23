@@ -13,6 +13,9 @@
 .Hobbies-background {
   background-color: #4cb859;
 }
+.Electronics-background {
+  background-color: #4cb859;
+}
 
 .Portfolio-button:hover {
   color: #21023b;
@@ -23,7 +26,9 @@
 .index-button:hover {
   color: #450303;
 }
-
+.Electronics-button:hover {
+  color: #450303;
+}
 
 .Portfolio-button {
   background-color:#8d0797;
@@ -54,6 +59,19 @@
 }
 
 .Hobbies-button {
+  background-color:#17610f;
+  border-width: 16px;
+  border-radius: 16px;;
+  border-color: #1f471a;
+  padding: 5px;
+  font-size: 16px;
+  font-family: "Fredoka One", fantasy;
+  font-weight: 900;
+  color: #b1dd8b;
+  text-decoration: none
+}
+
+.Electronics-button {
   background-color:#17610f;
   border-width: 16px;
   border-radius: 16px;;
