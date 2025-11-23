@@ -1,5 +1,3 @@
-
-
 /* STYLE SECTIONING TAGS */
 *{
   margin-right: 1mm;
@@ -7,32 +5,25 @@
 }
 
 .Portfolio-background {
-  background-color: #b66bd1; 
+  background-color: #b66bd1;
 }
 .index-background {
   background-color: #f55b9e;
 }
 .Hobbies-background {
-  background-color: #4cb859; 
-}
-
-.Electronics-background {
- background-color: #5b7af5;
+  background-color: #4cb859;
 }
 
 .Portfolio-button:hover {
-  color: #21023b;            
+  color: #21023b;
 }
 .Hobbies-button:hover {
-  color: #021301;            
+  color: #021301;
 }
 .index-button:hover {
-  color: #450303;            
+  color: #450303;
 }
 
-.Electronics-button:hover {
-  color: #040345;            
-}
 
 .Portfolio-button {
   background-color:#8d0797;
@@ -45,6 +36,7 @@
   font-weight: 900;
   color: #d592e8;
   text-decoration: none;
+
 }
 
 .index-button {
@@ -58,7 +50,7 @@
   font-weight: 900;
   color: #f4b3cf;
   text-decoration: none
-  
+
 }
 
 .Hobbies-button {
@@ -72,19 +64,7 @@
   font-weight: 900;
   color: #b1dd8b;
   text-decoration: none
-}
 
-.Electronics-button {
-  background-color:#150f61;
-  border-width: 16px;
-  border-radius: 16px;
-  border-color: #1d1a47;
-  padding: 5px;
-  font-size: 16px;
-  font-family: "Fredoka One", fantasy;
-  font-weight: 900;
-  color: #90a0df;
-  text-decoration: none;
 }
 
 .horizontal-list {
@@ -98,91 +78,30 @@
 
 .floating-image {
   position: absolute;
-  top: 5px; 
-  left: 4px; 
-  width: 140px; 
-  height: 100px; 
+  top: 5px; /* or some other value like '10px' to add some padding */
+  left: 4px; /* or use 'right: 0;' if you want it in the top right corner */
+  width: 140px;
+  height: 100px;
 }
 
 .coon-image {
   position: absolute;
-  width: 230px; 
+  width: 230px;
   height: 155px;
-  top: 114px; 
+  top: 114px;
   left: 120px;
 }
 .rcoon-image {
   position: absolute;
-  width: 230px; 
+  width: 230px;
   height: 155px;
-  top: 114px; 
+  top: 114px;
   left: 993px;
 }
 
-.PAINT-image {
-  height: 300px;
-  float: right;
-  padding-right: 50px;
-  padding-top: 100px;
-}
 
-.TV-image {
-  height: 400px;
-  width: 400px;
-  position: relative;
-  top: 480px;
-  left: 1px;
-}
 
-.BOOK-image {
-  height: 350px;
-  width: 290px;
-  position: relative;
-  top: 840px;
-  left: 550px;
-}
 
-.Crochet-image {
-  height: 350px;
-  width: 290px;
-  position: relative;
-  top: 1240px; /* Adjusted to align with TV */
-  left: 0px;  /* Align it to the left of TV */
-}
-
-.JJ-image {
-  height: 300px;
-  position: relative;
-  top:  1060px; /* Adjust to match TV's position */
-  left: 0px; /* Position this image next to TV */
-  padding-right: 0px;
-  padding-top: 0px;
-}
-
-.Writing-image {
-  height: 350px;
-  width: 290px;
-  position: relative;
-  top: 840px;  /* Position this below the BOOK-image */
-  left: 450px; 
-}
-
-.Drawing-image {
-  height: 300px;
-  float: right;
-  top: -600px;
-  padding-right: 50px;
-  padding-top: 100px;
-  left: 900px;  /* Adjust left to align with BOOK-image */
-}
-
-.bill-image {
-  height: 150px;
-  width: 290px;
-  position: relative;
-  top: 640px;
-  left: 0px;
-}
 
 
 
@@ -195,7 +114,7 @@
   border-color: #cc003d;
     height: 290px;
     width: 295px;
-} 
+}
 .image-container1 {
  position: relative;
   width: 250px;
@@ -203,33 +122,33 @@
   left: 10px;
   top: 70px;
   margin-bottom: 100px;
-} 
+}
 .image-container1:hover .purp {
   opacity: 1;
 }
 .purp {
   position: absolute;
   top: 40px;
-  left: 580px; 
+  left: 580px;
   width: 200%;
-  color: #d27bea;              
+  color: #d27bea;
   font-family: cursive;
   font-size: 20px;
-  background-color: rgb(62, 13, 89, 0.8); 
+  background-color: rgb(62, 13, 89, 0.8);
   padding: 10px;
   border-radius: 5px;
   text-align: center;
-  opacity: 0; 
+  opacity: 0;
   transform: translate(-50%, -50%);
-  transition: opacity 0.5s; 
-}  
+  transition: opacity 0.5s;
+}
 
 
-.pasta-image { 
+.pasta-image {
   position: relative;
-  border-radius: 1000px;  
-  border: 10px solid;   
-  border-color: #cc003d; 
+  border-radius: 1000px;
+  border: 10px solid;
+  border-color: #cc003d;
   top: -40px;
   left: -10px;
   height: 300px;
@@ -239,16 +158,16 @@
   top: 50px;
   left: 600px;
   width: 220%;
-  color: #eae77b;              
+  color: #eae77b;
   font-family: cursive;
   font-size: 20px;
-  background-color: rgb(195, 169, 4, 0.8); 
+  background-color: rgb(195, 169, 4, 0.8);
   padding: 10px;
   border-radius: 5px;
   text-align: center;
-  opacity: 0; 
+  opacity: 0;
   transform: translate(-50%, -50%);
-  transition: opacity 0.5s; 
+  transition: opacity 0.5s;
 }
 .image-container2 {
   position: relative;
@@ -257,7 +176,7 @@
    width: 240px;
   margin-top: 100px;
   margin-bottom: 90px;
-} 
+}
 .image-container2:hover .pasta {
   visibility: visible;
   opacity: 1;
@@ -269,20 +188,20 @@
   width: 290px;
   position: relative;
   left: -20px;
-} 
+}
 .Jax {
   position: absolute;
   left: -300px;
   top: 100px;
   width: 5000%;
-  color: #e8daa6;              
+  color: #e8daa6;
   font-family: cursive;
   font-size: 20px;
-  background-color: rgb(22, 22, 19, 0.8); 
+  background-color: rgb(22, 22, 19, 0.8);
   padding: 10px;
   border-radius: 5px;
   text-align: center;
-  opacity: 0;  
+  opacity: 0;
   transform: translate(-50%, -50%);
   transition: opacity 0.5s;
 }
@@ -290,10 +209,10 @@
   position: relative;
   left: 1040px;
   top: 20px;
-  width: 10px;  
-  height: 30px; 
+  width: 10px;
+  height: 30px;
   margin-bottom: 270px;
-} 
+}
 .image-container3:hover .Jax {
   visibility: visible;
   opacity: 1;
@@ -303,28 +222,28 @@
 .ST-image {
   height: 360px;
   width: 280px;
-  top: ; 
-} 
+  top: ;
+}
 .ST {
-   position: absolute; 
+   position: absolute;
   top: 130px;
-  left: -300px; 
+  left: -300px;
   width: 190%;
-  color: #fdaad6;              
+  color: #fdaad6;
   font-family: cursive;
   font-size: 20px;
-  background-color: rgb(154, 60, 120, 0.8); 
+  background-color: rgb(154, 60, 120, 0.8);
   padding: 10px;
   border-radius: 5px;
   text-align: center;
-  opacity: 0;  
+  opacity: 0;
   transform: translate(-50%, -50%);
-  transition: opacity 0.5s; 
-} 
+  transition: opacity 0.5s;
+}
 .image-container4 {
   position: relative;
   left: 1045px;
-   width: 290px;  
+   width: 290px;
 }
 .image-container4:hover .ST {
   visibility: visible;
@@ -333,33 +252,33 @@
 
 
 .TX-image {
- border-radius: 10px;  
-  border: 10px solid;   
-  border-color: #cc003d; 
+ border-radius: 10px;
+  border: 10px solid;
+  border-color: #cc003d;
    margin: px;
-  left: px; 
+  left: px;
   height: 230px;
   width: 350px;
-} 
+}
 .TX {
   position: absolute;
   left: 620px;
   top: 40px;
    width: 150%;
-  color: #e6e6e6;              
+  color: #e6e6e6;
   font-family: cursive;
   font-size: 20px;
   background-image: radial-gradient(ellipse, #bd0000, #1a0198);
   padding: 10px;
   border-radius: 5px;
   text-align: center;
-  opacity: 0;  
+  opacity: 0;
   transform: translate(-50%, -50%);
-  transition: opacity 0.5s; 
+  transition: opacity 0.5s;
 }
 .image-container5 {
   position: relative;
-  width: 300px; 
+  width: 300px;
   margin-top: 10px;
   left: 15px;
 }
@@ -372,29 +291,29 @@
 .Oct-image {
   height: 250px;
   right: 20px;
-} 
+}
 .Oct {
   position: absolute;
   top: 80px;
   left: -285px;
   width: 210%;
-  color: #eeb463;              
+  color: #eeb463;
   font-family: cursive;
   font-size: 20px;
-  background-color: rgb(166, 100, 7, 0.8);  
+  background-color: rgb(166, 100, 7, 0.8);
   padding: 10px;
   border-radius: 5px;
-  text-align: center; 
+  text-align: center;
   opacity: 0;
   transform: translate(-50%, -50%);
   transition: opacity 0.5s;
 }
 .image-container6 {
   position: relative;
-  left: 1045px; 
-  width: 250px;  
+  left: 1045px;
+  width: 250px;
   margin-bottom: 150px;
-} 
+}
 .image-container6:hover .Oct {
   visibility: visible;
   opacity: 1;
@@ -402,6 +321,251 @@
 
 
 
+
+.JJ-image {
+height: 300px;
+}
+.Drawing-image {
+height: 300px;
+}
+.Crochet-image {
+height: 300px;
+}
+.Writing-image {
+height: 300px;
+}
+.bill-image {
+height: 300px
+}
+.TV-image {
+height: 400px;
+}
+.BOOK-image {
+  height: 300px;
+  left: 300px;
+}
+.PAINT-image {
+height: 300px;
+}
+.bill-image {
+   height: 150px;
+   width: 300px;
+}
+
+/* Hobbies page image containers and hover effects */
+.image-container-tv {
+  position: relative;
+  display: inline-block;
+}
+.image-container-tv:hover .tv-text {
+  opacity: 1;
+}
+.tv-text {
+  position: absolute;
+  top: 45%;
+  left: 165%;
+  width: 140%;
+  color: #edf033;
+  font-family: cursive;
+  font-size: 20px;
+  background-color: #cd2375;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5s;
+}
+
+.image-container-book {
+  position: relative;
+  display: inline-block;
+}
+.image-container-book:hover .book-text {
+  opacity: 1;
+}
+.book-text {
+  position: absolute;
+  top: 50%;
+  left: -110%;
+  width: 210%;
+  color: #e4e9a0;
+  font-family: cursive;
+  font-size: 20px;
+  background-color: rgb(199, 172, 0, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5s;
+}
+
+.image-container-paint {
+  position: relative;
+  display: inline-block;
+}
+.image-container-paint:hover .paint-text {
+  opacity: 1;
+}
+.paint-text {
+  position: absolute;
+  top: 30%;
+  left: -120%;
+  width: 200%;
+  color: #200943;
+  font-family: cursive;
+  font-size: 20px;
+  background-color: #cf8e59;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5s;
+}
+
+.image-container-crochet {
+  position: relative;
+  display: inline-block;
+}
+.image-container-crochet:hover .crochet-text {
+  opacity: 1;
+}
+.crochet-text {
+  position: absolute;
+  top: 20%;
+  left: 160%;
+  width: 150%;
+  color: #327d8f;
+  font-family: cursive;
+  font-size: 20px;
+  background-color: rgb(215, 194, 60, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5s;
+}
+
+.image-container-jj {
+  position: relative;
+  display: inline-block;
+}
+.image-container-jj:hover .jj-text {
+  opacity: 1;
+}
+.jj-text {
+  position: absolute;
+  top: 40%;
+  left: 180%;
+  width: 160%;
+  color: #000000;
+  font-family: cursive;
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5s;
+}
+
+.image-container-writing {
+  position: relative;
+  display: inline-block;
+}
+.image-container-writing:hover .writing-text {
+  opacity: 1;
+}
+.writing-text {
+  position: absolute;
+  top: 50%;
+  left: -100%;
+  width: 200%;
+  color: #0a7da4;
+  font-family: cursive;
+  font-size: 20px;
+  background-color: rgb(244, 220, 67, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5s;
+}
+
+.image-container-drawing {
+  position: relative;
+  display: inline-block;
+}
+.image-container-drawing:hover .drawing-text {
+  opacity: 1;
+}
+.drawing-text {
+  position: absolute;
+  top: 20%;
+  left: -110%;
+  width: 200%;
+  color: #9d1010;
+  font-family: cursive;
+  font-size: 20px;
+  background-color: rgb(214, 61, 225, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5s;
+}
+
+.image-container-bill {
+  position: relative;
+  display: inline-block;
+}
+.image-container-bill:hover .bill-text {
+  opacity: 1;
+}
+.bill-text {
+  position: absolute;
+  top: 30%;
+  left: 180%;
+  width: 180%;
+  color: #69ce7a;
+  font-family: cursive;
+  font-size: 20px;
+  background-color: #114007;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5s;
+}
+
+.hobbies-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 400px;
+  margin-right: 200px;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 400px;
+  margin-left: 200px;
+  margin-top: 400px;
+}
 
 .Skibidi-h2 {
   font-variant: small-caps;
@@ -418,6 +582,10 @@
   text-align: center;
   margin-top: 5.3em;
 }
+
+
+
+
 
 .Rizzler-h1{
   font-family: "Oswald", sans-serif;
@@ -438,22 +606,27 @@
 }
 
 .Skibidi-h4 {
-  font-family: "Oswald", sans-serif; 
+  font-family: "Oswald", sans-serif;
   color:#3f8924;
   -webkit-text-stroke: 2px #000000;
   font-size: 1.0cm;
   margin-top: 2.6em
 }
 
-.special-letters { 
+.special-letters {
   color: #230632;
   margin-bottom: -.2em;
   font-size: 4em;
   font-variant: small-caps;
 
   text-shadow:
-     6px  5px 0 #9d1b6d;            
+     6px  5px 0 #9d1b6d;
 }
+
+
+
+
+
 
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
