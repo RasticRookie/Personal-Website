@@ -631,6 +631,32 @@ height: 300px;
   margin-top: 2.6em
 }
 
+.E-h1 {
+   font-family: "Oswald", sans-serif;
+  color:#3f8924;
+  -webkit-text-stroke: 2px #000000;
+  font-size: 1.0cm;
+  margin-top: 2.6em
+}
+
+.E-h4{
+   font-family: "Oswald", sans-serif;
+  color:#3f8924;
+  -webkit-text-stroke: 2px #000000;
+  font-size: 1.0cm;
+  margin-top: 2.6em
+}
+
+
+
+
+
+
+
+
+
+    
+
 .special-letters {
   color: #230632;
   margin-bottom: -.2em;
