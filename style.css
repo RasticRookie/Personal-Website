@@ -4,6 +4,14 @@
   margin-left: 1mm;
 }
 
+.my-iframe {
+  width: 50%;
+  height: 50%;
+  border: 2px solid #2F7A41;
+  margin: 4px;
+}
+
+
 .Portfolio-background {
   background-color: #b66bd1;
 }
