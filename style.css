@@ -5,10 +5,12 @@
 }
 
 .my-iframe {
-  width: 400px;
-  height: 580px;
-  border: 40px solid #2F7A41;
+  width: 300px;
+  height: 480px;
+  border: 30px solid #2F7A41;
   margin: 4px;
+  flex: center;
+
 }
 
 
