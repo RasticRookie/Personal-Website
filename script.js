@@ -9,6 +9,15 @@ function toggleImage() {
   }
 }
 
-document.getElementsByClassName('.floating-image');
+const logo = document.querySelector('.floating-image');
+const modal = document.getElementById('myPopUp');
+const closeButton = document.querySelector('.close-button');
 
+logo.onclick = function() {
+  modal.style.display = "block";
+}
+
+closeButton.onclick = function() {
+  modal.style.display = "none";
+}
 
