@@ -20,6 +20,7 @@
   left: 0; top: 0;
   width: 100%; height: 100%;
   background-color: rgba(0,0,0,0.5); 
+}
 
 .window-content {
   background-color: purple;
@@ -87,7 +88,7 @@
   font-family: "Fredoka One", fantasy;
   font-weight: 900;
   color: #f4b3cf;
-  text-decoration: none
+  text-decoration: none;
 
 }
 
@@ -101,7 +102,7 @@
   font-family: "Fredoka One", fantasy;
   font-weight: 900;
   color: #b1dd8b;
-  text-decoration: none
+  text-decoration: none;
 }
 
 .Electronics-button {
@@ -114,7 +115,7 @@
   font-family: "Fredoka One", fantasy;
   font-weight: 900;
   color: #b1dd8b;
-  text-decoration: none
+  text-decoration: none;
 
 }
 
