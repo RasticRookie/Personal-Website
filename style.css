@@ -13,6 +13,30 @@
 
 }
 
+.popUp {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.5); /* Semi-transparent background */
+}
+
+.window-content {
+  background-color: pink;
+  margin: 15% auto;
+  padding: 20px;
+  width: 50%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.close-button {
+  float: right;
+  cursor: pointer;
+  font-size: 14px;
+}
+
 
 .Portfolio-background {
   background-color: #b66bd1;
