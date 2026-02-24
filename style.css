@@ -1,8 +1,4 @@
-.toggle-container {
-  display: flex;
-  left: 0px;
-  position: absolute;
-}
+
 *{
   margin-right: 1mm;
   margin-left: 1mm;
@@ -14,7 +10,12 @@
   border: 30px solid #2F7A41;
   margin: 4px;
   flex: center;
-
+}
+  
+.toggle-container {
+  display: flex;
+  left: 0px;
+  position: absolute;
 }
 
 .popUp {
@@ -24,6 +25,7 @@
   left: 0; top: 0;
   width: 100%; height: 100%;
   background-color: rgba(0,0,0,0.5); 
+}
 
 .window-content {
   background-color: purple;
@@ -78,7 +80,6 @@
   font-weight: 900;
   color: #d592e8;
   text-decoration: none;
-
 }
 
 .index-button {
@@ -92,7 +93,6 @@
   font-weight: 900;
   color: #f4b3cf;
   text-decoration: none
-
 }
 
 .Hobbies-button {
@@ -119,7 +119,6 @@
   font-weight: 900;
   color: #b1dd8b;
   text-decoration: none
-
 }
 
 .horizontal-list {
@@ -682,17 +681,7 @@ height: 300px;
   -webkit-text-stroke: 2px #000000;
   font-size: 1.0cm;
   margin-top: 2.6em
-}
-
-
-
-
-
-
-
-
-
-    
+}   
 
 .special-letters {
   color: #230632;
