@@ -44,23 +44,23 @@
   background-color: #f55b9e;
 }
 .Hobbies-background {
-  background-color: #4cb859;
+  background-color: #6bbdd1;
 }
 .Electronics-background {
-  background-color: #4cb859;
+  background-color: #aad16b;
 }
 
 .Portfolio-button:hover {
   color: #21023b;
 }
 .Hobbies-button:hover {
-  color: #021301;
+  color: #02313b;
 }
 .index-button:hover {
   color: #450303;
 }
 .Electronics-button:hover {
-  color: #450303;
+  color: #143b02;
 }
 
 .Portfolio-button {
