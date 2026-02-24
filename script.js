@@ -8,3 +8,7 @@ function toggleImage() {
     image.src = 'assets/Doggo2.PNG'; // Path to the original image
   }
 }
+
+document.getElementsByClassName('.floating-image');
+
+
