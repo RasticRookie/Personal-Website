@@ -129,10 +129,11 @@
 
 .floating-image {
   position: absolute;
-  top: 5px; /* or some other value like '10px' to add some padding */
-  left: 4px; /* or use 'right: 0;' if you want it in the top right corner */
+  top: 5px;
+  left: 4px; 
   width: 140px;
   height: 100px;
+  cursor: pointer;
 }
 
 .coon-image {
@@ -239,6 +240,7 @@
   width: 290px;
   position: relative;
   left: -20px;
+  cursor: pointer;
 }
 .Jax {
   position: absolute;
