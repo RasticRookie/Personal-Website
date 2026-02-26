@@ -99,7 +99,19 @@
   background-color:#0F615C;
   border-width: 16px;
   border-radius: 16px;;
-  border-color: #1f471a;
+  border-color: #1a4747;
+  padding: 5px;
+  font-size: 16px;
+  font-family: "Fredoka One", fantasy;
+  font-weight: 900;
+  color: #8bddd2;
+  text-decoration: none
+
+.Electronics-button {
+  background-color:#32610f;
+  border-width: 16px;
+  border-radius: 16px;;
+  border-color: #27471a;
   padding: 5px;
   font-size: 16px;
   font-family: "Fredoka One", fantasy;
@@ -108,18 +120,7 @@
   text-decoration: none
 }
 
-.Electronics-button {
-  background-color:#17610f;
-  border-width: 16px;
-  border-radius: 16px;;
-  border-color: #1f471a;
-  padding: 5px;
-  font-size: 16px;
-  font-family: "Fredoka One", fantasy;
-  font-weight: 900;
-  color: #b1dd8b;
-  text-decoration: none
-}
+
 
 .horizontal-list {
   display: flex;
