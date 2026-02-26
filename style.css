@@ -305,7 +305,7 @@
   position: absolute;
  
   bottom: -325%;
-  left: 50%;
+  left: 0%;
   margin-left: -80px;
 }
 
@@ -406,6 +406,13 @@
   text-shadow:
      6px  5px 0 #9d1b6d;
 }
+
+
+
+
+
+
+
 
 
 // <uniquifier>: Use a unique and descriptive class name
