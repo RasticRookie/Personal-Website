@@ -734,3 +734,58 @@ height: 300px;
 /* Converted comments to proper format */
 /* This is a comment on line 710 */
 /* This is a comment on line 728 */
+
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color: purple;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 80px;
+  padding: 8px 0;
+  position: absolute;
+ 
+  bottom: -325%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: myAnimation 6s;
+  animation: myAnimation 4s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes myAnimation {
+  0% { background-color: red; }
+  25% { background-color: orange; }
+   45% { background-color: yellow; }
+  55% { background-color: green; }
+  70% { background-color: blue; }
+   125% { background-color: purple; }
+}
+
+
+@keyframes bounce {
+ from { left: 0px; }
+  to { left: 200px; }
+}
+
+
+
