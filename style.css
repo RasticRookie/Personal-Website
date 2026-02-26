@@ -282,250 +282,58 @@
 
 
 
-
-.JJ-image {
-height: 300px;
-}
-.Drawing-image {
-height: 300px;
-}
-.Crochet-image {
-height: 300px;
-}
-.Writing-image {
-height: 300px;
-}
-.bill-image {
-height: 300px
-}
-.TV-image {
-height: 400px;
-}
-.BOOK-image {
-  height: 300px;
-  left: 300px;
-}
-.PAINT-image {
-height: 300px;
-}
-.bill-image {
-   height: 150px;
-   width: 300px;
-}
-
-/* Hobbies page image containers and hover effects */
-.image-container-tv {
+.popup {
   position: relative;
   display: inline-block;
+  cursor: pointer;
+  color: purple;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
-.image-container-tv:hover .tv-text {
-  opacity: 1;
-}
-.tv-text {
-  position: absolute;
-  top: 45%;
-  left: 165%;
-  width: 140%;
-  color: #edf033;
-  font-family: cursive;
-  font-size: 20px;
-  background-color: #cd2375;
-  padding: 10px;
-  border-radius: 5px;
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: #555;
+  color: #fff;
   text-align: center;
-  opacity: 0;
-  transform: translate(-50%, -50%);
-  transition: opacity 0.5s;
-}
-
-.image-container-book {
-  position: relative;
-  display: inline-block;
-}
-.image-container-book:hover .book-text {
-  opacity: 1;
-}
-.book-text {
+  border-radius: 80px;
+  padding: 8px 0;
   position: absolute;
-  top: 50%;
-  left: -110%;
-  width: 210%;
-  color: #e4e9a0;
-  font-family: cursive;
-  font-size: 20px;
-  background-color: rgb(199, 172, 0, 0.8);
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-  opacity: 0;
-  transform: translate(-50%, -50%);
-  transition: opacity 0.5s;
+ 
+  bottom: -325%;
+  left: 50%;
+  margin-left: -80px;
 }
 
-.image-container-paint {
-  position: relative;
-  display: inline-block;
-}
-.image-container-paint:hover .paint-text {
-  opacity: 1;
-}
-.paint-text {
-  position: absolute;
-  top: 30%;
-  left: -120%;
-  width: 200%;
-  color: #200943;
-  font-family: cursive;
-  font-size: 20px;
-  background-color: #cf8e59;
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-  opacity: 0;
-  transform: translate(-50%, -50%);
-  transition: opacity 0.5s;
-}
-.image-container-crochet {
-  position: relative;
-  display: inline-block;
-}
-.image-container-crochet:hover .crochet-text {
-  opacity: 1;
-}
-.crochet-text {
-  position: absolute;
-  top: 20%;
-  left: 160%;
-  width: 150%;
-  color: #327d8f;
-  font-family: cursive;
-  font-size: 20px;
-  background-color: rgb(215, 194, 60, 0.8);
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-  opacity: 0;
-  transform: translate(-50%, -50%);
-  transition: opacity 0.5s;
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: myAnimation 6s;
+  animation: myAnimation 4s;
 }
 
-.image-container-jj {
-  position: relative;
-  display: inline-block;
-}
-.image-container-jj:hover .jj-text {
-  opacity: 1;
-}
-.jj-text {
-  position: absolute;
-  top: 40%;
-  left: 180%;
-  width: 160%;
-  color: #000000;
-  font-family: cursive;
-  font-size: 20px;
-  background-color: #ffffff;
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-  opacity: 0;
-  transform: translate(-50%, -50%);
-  transition: opacity 0.5s;
+/* Add animation (fade in the popup) */
+@-webkit-keyframes myAnimation {
+  0% { background-color: red; }
+  25% { background-color: orange; }
+   45% { background-color: yellow; }
+  55% { background-color: green; }
+  70% { background-color: blue; }
+   125% { background-color: purple; }
 }
 
-.image-container-writing {
-  position: relative;
-  display: inline-block;
-}
-.image-container-writing:hover .writing-text {
-  opacity: 1;
-}
-.writing-text {
-  position: absolute;
-  top: 50%;
-  left: -100%;
-  width: 200%;
-  color: #0a7da4;
-  font-family: cursive;
-  font-size: 20px;
-  background-color: rgb(244, 220, 67, 0.8);
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-  opacity: 0;
-  transform: translate(-50%, -50%);
-  transition: opacity 0.5s;
+
+@keyframes bounce {
+ from { left: 0px; }
+  to { left: 200px; }
 }
 
-.image-container-drawing {
-  position: relative;
-  display: inline-block;
-}
-.image-container-drawing:hover .drawing-text {
-  opacity: 1;
-}
-.drawing-text {
-  position: absolute;
-  top: 20%;
-  left: -110%;
-  width: 200%;
-  color: #9d1010;
-  font-family: cursive;
-  font-size: 20px;
-  background-color: rgb(214, 61, 225, 0.8);
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-  opacity: 0;
-  transform: translate(-50%, -50%);
-  transition: opacity 0.5s;
-}
 
-.image-container-bill {
-  position: relative;
-  display: inline-block;
-}
-.image-container-bill:hover .bill-text {
-  opacity: 1;
-}
-.bill-text {
-  position: absolute;
-  top: 30%;
-  left: 180%;
-  width: 180%;
-  color: #69ce7a;
-  font-family: cursive;
-  font-size: 20px;
-  background-color: #114007;
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-  opacity: 0;
-  transform: translate(-50%, -50%);
-  transition: opacity 0.5s;
-}
-
-.hobbies-grid {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  padding: 20px;
-}
-
-.left-column {
-  display: flex;
-  flex-direction: column;
-  gap: 400px;
-  margin-right: 200px;
-}
-
-.right-column {
-  display: flex;
-  flex-direction: column;
-  gap: 400px;
-  margin-left: 200px;
-  margin-top: 400px;
-}
 
 .Skibidi-h2 {
   font-variant: small-caps;
