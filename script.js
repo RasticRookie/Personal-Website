@@ -21,3 +21,11 @@ closeButton.onclick = function() {
   modal.style.display = "none";
 }
 
+
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopUp");
+  popup.classList.toggle("show");
+}
+
+
