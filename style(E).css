@@ -13,69 +13,14 @@
   flex: center;
 }
 
-.Portfolio-background {
-  background-color: #b66bd1;
-}
-.index-background {
-  background-color: #f55b9e;
-}
-.Hobbies-background {
-  background-color: #6bbdd1;
-}
 .Electronics-background {
   background-color: #aad16b;
 }
 
-.Portfolio-button:hover {
-  color: #21023b;
-}
-.Hobbies-button:hover {
-  color: #033330;
-}
-.index-button:hover {
-  color: #450303;
-}
 .Electronics-button:hover {
   color: #143b02;
 }
 
-.Portfolio-button {
-  background-color:#8d0797;
-  border-width: 16px;
-  border-radius: 16px;
-  border-color: #4e0b5b;
-  padding: 5px;
-  font-size: 16px;
-  font-family: "Fredoka One", fantasy;
-  font-weight: 900;
-  color: #d592e8;
-  text-decoration: none;
-}
-
-.index-button {
-  background-color:#d1005b;
-  border-width: 16px;
-  border-radius: 16px;;
-  border-color: #940040;
-  padding: 5px;
-  font-size: 16px;
-  font-family: "Fredoka One", fantasy;
-  font-weight: 900;
-  color: #f4b3cf;
-  text-decoration: none
-}
-
-.Hobbies-button {
-  background-color:#0F615C;
-  border-width: 16px;
-  border-radius: 16px;;
-  border-color: #1a4747;
-  padding: 5px;
-  font-size: 16px;
-  font-family: "Fredoka One", fantasy;
-  font-weight: 900;
-  color: #8bddd2;
-  text-decoration: none
 
 .Electronics-button {
   background-color:#32610f;
