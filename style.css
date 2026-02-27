@@ -310,8 +310,7 @@
 }
 
 
-/* Toggle this class - hide and show the popup */
-.popup .show {
+.index-background .show {
   visibility: visible;
   -webkit-animation: myAnimation 6s;
   animation: myAnimation 4s;
@@ -407,8 +406,19 @@
      6px  5px 0 #9d1b6d;
 }
 
+. .show {
+  visibility: visible;
+  animation:  myAnimation 5s infinite;
+}
 
-
+@keyframes myAnimation {
+  10% { background-color: #ff5c5c; }
+  100% { background-color: #d780ff; }
+  70% { background-color: #80e5ff; }
+  100% { background-color: #80ff8e; }
+  67% { background-color: #ffdd80; }
+  50% { background-color: #d780ff; }
+}
 
 
 
