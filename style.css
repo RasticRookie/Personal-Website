@@ -406,7 +406,7 @@
      6px  5px 0 #9d1b6d;
 }
 
-. .show {
+.index-background .show {
   visibility: visible;
   animation:  myAnimation 5s infinite;
 }
