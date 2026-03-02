@@ -25,16 +25,12 @@
   text-decoration: none
 }
 
-
-
 .horizontal-list {
   display: flex;
   justify-content: center;
   list-style-type: none;
   padding: 0;
 }
-
-
 
 .floating-image {
   position: absolute;
@@ -59,12 +55,6 @@
   top: 114px;
   left: 993px;
 }
-
-
-
-
-
-
 
   .purple-image {
     position: relative;
@@ -280,60 +270,6 @@
   opacity: 1;
 }
 
-
-
-.popup {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  color: purple;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-/* The actual popup */
-.popup .popuptext {
-  visibility: hidden;
-  width: 100px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 80px;
-  padding: 8px 0;
-  position: absolute;
- 
-  bottom: -325%;
-  left: 0%;
-  margin-left: -80px;
-}
-
-
-.index-background .show {
-  visibility: visible;
-  -webkit-animation: myAnimation 6s;
-  animation: myAnimation 4s;
-}
-
-/* Add animation (fade in the popup) */
-@-webkit-keyframes myAnimation {
-  0% { background-color: red; }
-  25% { background-color: orange; }
-   45% { background-color: yellow; }
-  55% { background-color: green; }
-  70% { background-color: blue; }
-   125% { background-color: purple; }
-}
-
-
-@keyframes bounce {
- from { left: 0px; }
-  to { left: 200px; }
-}
-
-
-
 .Skibidi-h2 {
   font-variant: small-caps;
   background: linear-gradient(90deg, red, #fff700, #00ff04, #008055, #00e1ff, #1e00ff, #7d0080, #ff007b);
@@ -343,16 +279,6 @@
  font-size: 1.6cm;
   margin-bottom: 2.6em;
 }
-
-.container {
-  width: 100%;
-  text-align: center;
-  margin-top: 5.3em;
-}
-
-
-
-
 
 .Rizzler-h1{
   font-family: "Oswald", sans-serif;
@@ -380,21 +306,6 @@
   margin-top: 2.6em
 }
 
-.E-h1 {
-   font-family: "Oswald", sans-serif;
-  color:#3f8924;
-  -webkit-text-stroke: 2px #000000;
-  font-size: 1.0cm;
-  margin-top: 2.6em
-}
-
-.E-h4 {
-   font-family: "Oswald", sans-serif;
-  color:#2f8924;
-  -webkit-text-stroke: 2px #000000;
-  font-size: 1.0cm;
-  margin-top: 2.6em
-}   
 
 .special-letters {
   color: #230632;
@@ -405,21 +316,6 @@
   text-shadow:
      6px  5px 0 #9d1b6d;
 }
-
-.index-background .show {
-  visibility: visible;
-  animation:  myAnimation 5s infinite;
-}
-
-@keyframes myAnimation {
-  10% { background-color: #ff5c5c; }
-  100% { background-color: #d780ff; }
-  70% { background-color: #80e5ff; }
-  100% { background-color: #80ff8e; }
-  67% { background-color: #ffdd80; }
-  50% { background-color: #d780ff; }
-}
-
 
 
 
