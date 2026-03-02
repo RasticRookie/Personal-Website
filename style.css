@@ -4,6 +4,32 @@
   margin-left: 1mm;
 }
 
+.popup {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.floating-image {
+  margin: auto;
+  display: block;
+}
+
+/* The Close Button */
+.close-button {
+  position: absolute;
+  top: 15px; right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .index-background {
   background-color: #f55b9e;
 }
