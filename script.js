@@ -9,23 +9,29 @@ function toggleImage() {
   }
 }
 
-const logo = document.querySelector('.floating-image');
-const modal = document.getElementById('myPopUp');
-const closeButton = document.querySelector('.close-button');
+// Enter button function
+function enterButton() {
 
-logo.onclick = function() {
-  modal.style.display = "block";
+  let userName = document.getElementById("userName").value;
+  let userOccupation = document.getElementById("userOccupation").value;
+  let popup = document.getElementById("myPopup");
+
+  if (userName.trim() !== "" && userOccupation.trim() !== "") {
+    console.log("Name: " + userName + "; Occupation: " + userOccupation);
+
+    popup.classList.remove("show");
+
+    // clear inputs
+    document.getElementById("userName").value = "";
+    document.getElementById("userOccupation").value = "";
+  } 
+  else {
+    alert("Please fill in both fields!");
+  }
 }
 
-closeButton.onclick = function() {
-  modal.style.display = "none";
-}
-
-
-// When the user clicks on div, open the popup
-function myFunction() {
-  var popup = document.getElementById("myPopUp");
-  popup.classList.toggle("show");
+function myBackground() {
+  document.body.classList.toggle("animate-bg");
 }
 
 
