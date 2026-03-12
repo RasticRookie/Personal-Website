@@ -17,7 +17,7 @@ function enterButton() {
   let popup = document.getElementById("myPopup");
 
   if (userName.trim() !== "" && userOccupation.trim() !== "") {
-    console.log("Name: " + userName + "; Occupation: " + userOccupation);
+    console.log("Name: " + userName + "; Occupation: " + userOccupation) ;
 
     popup.classList.remove("show");
 
