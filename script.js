@@ -34,4 +34,9 @@ function myBackground() {
   document.body.classList.toggle("animate-bg");
 }
 
+function myPopUp () {
+  document.getElementById("myPopUp");
+  popup.classList.toggle("show");
+}
+
 
