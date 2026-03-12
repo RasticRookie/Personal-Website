@@ -28,12 +28,19 @@
 
   <header>
     <img onclick="myBackground(), document.getElementById('myPopup').classList.toggle('show')" src="assets/Logo.png" alt="Logo" class="floating-image" > 
-      <div id="myPopUp" class="popup">
-  <div class="popuptext">
-    <span class="close-button">&times;</span>
-    <p> Welcome! Thanks for clicking my logo. Welcome to my corner of the Internet!</p>
+
+    <div class="popup">
+      <span class="popuptext" id="myPopup">
+        <h7 style="color: #850556; font-size: 24px; text-align: center; display: inline-block; padding-top: 10px;">Full Name?</h7>
+      <input type="text" id="userName" class="colorful-input" placeholder="Name Please" style="width: 80%; padding: 5px; margin-top: 5px; border-radius: 4px; border: 1px solid #ccc;">
+      <br><br>
+      <h7 style="color: #850556; font-size: 24px; text-align: center; display: block;">Known Occupation?</h6>
+      <input type="text" id="userOccupation" class="colorful-input" placeholder="Occupation Please" style="width: 80%; padding: 5px; margin-top: 5px; border-radius: 4px; border: 1px solid #ccc;">
+      <br>
+      <button class="enter" style="margin-top: 10px; font-size: 20px; padding: 5px 15px;" onclick="enterButton()">Enter</button>
+    </span>
   </div>
-</div>
+    
     <center>
       <ul class="horizontal-list">
         <li><a href="Hobbies.html"><button class="index-button">Hobbies</button></a></li>
