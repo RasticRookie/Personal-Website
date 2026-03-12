@@ -332,7 +332,7 @@
   padding: 20px;
   position: absolute;
   z-index: 1;
-  bottom: -825%;
+  margin-top: 35%;
   left: 50%;
   margin-left: -125px;
 }
