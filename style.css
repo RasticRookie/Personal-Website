@@ -324,17 +324,21 @@
 /* The actual popup */
 .popup .popuptext {
   visibility: hidden;
-  width: 250px;
+  align-self: placeholder;
+  align-content: center;
+  width: 650px;
+  height: 400px;
   background-color: #ff4242;
   color: #fff;
-  text-align: center;
+  text-align: center ;
   border-radius: 6px;
   padding: 20px;
   position: absolute;
   z-index: 1;
-  margin-top: 35%;
+  margin-top: 5%;
   left: 50%;
   margin-left: -125px;
+  display: flow;
 }
 
 /* Show the popup */
