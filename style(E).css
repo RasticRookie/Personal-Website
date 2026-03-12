@@ -14,8 +14,12 @@
 }
 
 .floating-image {
-  margin: auto;
-  display: block;
+ position: absolute;
+  top: 5px;
+  left: 4px; 
+  width: 140px;
+  height: 100px;
+  cursor: pointer;
 }
 
 .Electronics-background {
