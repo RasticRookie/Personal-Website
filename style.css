@@ -326,6 +326,7 @@
   visibility: hidden;
   align-self: placeholder;
   align-content: center;
+  justify-content: center;
   width: 650px;
   height: 400px;
   background-color: #ff4242;
