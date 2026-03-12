@@ -135,7 +135,6 @@
 /* The actual popup */
 .popup .popuptext {
   visibility: hidden;
-  align-self: placeholder;
   align-content: center;
   justify-content: center;
   width: 650px;
@@ -147,10 +146,8 @@
   padding: 20px;
   position: absolute;
   z-index: 1;
-  margin-top: 5%;
-  left: 50%;
-  margin-left: -125px;
   display: flow;
+  top: -50px;;
 }
 
 /* Show the popup */
